@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "files-postgre-mcp": {
+            "command": "java",
+            "args": [
+                "-jar",
+                "/Users/rajesh/IdeaProjects/database-mcp-tool/target/database-mcp-tool-1.0.0-SNAPSHOT.jar",
+                "--spring.profiles.active=stdio,h2"
+            ]
+        }
+    }
+}
